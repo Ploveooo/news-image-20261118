@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/news-image-20261118/Ploveooo/news-image-20261118/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
 [![reward](https://make.fun/badge/news-image-20261118/Ploveooo/news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
 
-A one-page news front page summing up the world news of Wednesday 18 November 2026: six verified stories, each with a flat pictogram, a headline and one short summary line, drawn with Pillow and shipped by a standard-library-only Python program.
+A one-page news front page summing up the world news of Wednesday 18 November 2026: six verified stories, each with a flat pictogram, a headline and one short summary line, drawn with Pillow and shipped by a standard-library-only Python program. The page is laid out like a real front page — a full-width lead story (the Iranian tankers), four stories in a 2×2 grid, and a climate strip at the foot — with type sized to stay legible when the image is read small.
 
 ## Run it
 
@@ -18,8 +18,10 @@ python3 draw_news.py && mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 
 ## The image
 
-`entry.png` (1024×1024, ~115 KB) is a front page: a masthead naming
-**Wednesday, 18 November 2026**, and six stories from that day.
+`entry.png` (1024×1024) is a front page: a masthead naming
+**Wednesday, 18 November 2026**, a full-width lead story, four stories in
+a 2×2 grid, and a climate strip at the foot — six stories from that day
+in all.
 
 | Card | Story |
 | --- | --- |
